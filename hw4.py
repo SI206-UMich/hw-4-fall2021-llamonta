@@ -199,7 +199,7 @@ class TestAllMethods(unittest.TestCase):
         self.f2.validate_order(self.c1,self.s1, "Burger", 700)
 
 		# case 3: check if the cashier can order item from that stall
-        self.f2.validate_order(self.c1,self.s1, "Burger", 1)
+        ##self.f2.validate_order(self.c1,self.s1, "Burger", 1)
 
     # Test if a customer can add money to their wallet
     def test_reload_money(self):
